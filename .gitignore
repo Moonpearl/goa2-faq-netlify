@@ -37,3 +37,5 @@ tests_output/
 src/**/*.generated.*
 !src/data/generated/.gitkeep
 *.missing.json
+# Local Netlify folder
+.netlify

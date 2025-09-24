@@ -34,8 +34,6 @@ const hash = (Math.random() + 1).toString(36).substring(2);
 
 /* eslint-disable @typescript-eslint/no-require-imports */
 export default defineConfig({
-    base: '/goa2-faq/',
-
     define: {
         __APP_VERSION__: JSON.stringify(require('./package.json').version),
         __APP_REPO__: JSON.stringify(require('./package.json').repository.url),
