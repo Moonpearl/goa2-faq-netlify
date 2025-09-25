@@ -1,173 +1,173 @@
 [
     {
-        "id": "ari-gold-noble-blade",
-        "name": "Noble Blade",
-        "color": "gold",
-        "type": "basic attack",
-        "tier": null,
-        "text": "Target a unit adjacent to you.\nBefore the attack: You may move another unit adjacent to the target 1 space.\n_(“Another unit” never includes you.)_",
-        "alternative": false
-    },
-    {
-        "id": "ari-gold-h-ceremonial-blade",
-        "name": "Ceremonial Blade",
-        "color": "gold",
-        "type": "basic attack",
-        "tier": "H",
-        "text": "Target a hero adjacent to you.\nBefore the attack: You may move a minion that is adjacent to the target 1 space.",
-        "alternative": false
-    },
-    {
-        "id": "ari-silver-spell-break",
+        "id": "ari-silver",
         "name": "Spell Break",
         "color": "silver",
-        "type": "basic skill",
         "tier": null,
-        "text": "**This turn:** Enemy heroes in radius cannot perform skill actions, except on gold cards.\n_(Skill ::skill:: is an action type. Other action types are unaffected.)_",
-        "alternative": false
+        "alternative": false,
+        "type": "basic skill - area",
+        "text": "**This turn:** Enemy heroes in radius cannot perform skills.\n_(Spell Break will not stop an attack action.)_"
     },
     {
-        "id": "ari-purple-iv-living-tsunami",
-        "name": "Living Tsunami",
-        "color": "purple",
-        "type": "ultimate",
-        "tier": "IV",
-        "text": "Once per turn, before performing an Attack action, you may move 1 space.",
-        "alternative": false
+        "id": "ari-gold",
+        "name": "Noble Blade",
+        "color": "gold",
+        "tier": null,
+        "alternative": false,
+        "type": "basic attack",
+        "text": "Target a unit adjacent to you.\nBefore the attack: You may move another unit that is adjacent to the target 1 space.\n_(“Another unit” does not include you.)_"
     },
     {
-        "id": "ari-blue-i-aspiring-duelist",
-        "name": "Aspiring Duelist",
-        "color": "blue",
-        "type": "defense",
-        "tier": "I",
-        "text": "Ignore all minion defense modifiers.\n_(This includes your minions, as well as the enemy minions.)_",
-        "alternative": false
+        "id": "ari-gold-h",
+        "name": "Ceremonial Blade",
+        "color": "gold",
+        "tier": "H",
+        "alternative": false,
+        "type": "basic attack",
+        "text": "Target a hero adjacent to you.\nBefore the attack: You may move a minion that is adjacent to the target 1 space."
     },
     {
-        "id": "ari-red-i-dangerous-current",
-        "name": "Dangerous Current",
+        "id": "ari-red-i",
+        "name": "Gush of Water",
         "color": "red",
-        "type": "attack",
         "tier": "I",
-        "text": "Target a unit adjacent to you.\nBefore the attack: Up to 1 enemy hero in any of the 2 spaces in a straight line directly behind the target discards a card, or is defeated.",
-        "alternative": false
+        "alternative": false,
+        "type": "attack - ranged",
+        "text": "Target a unit in range.\nAfter the attack: Push up to one token, or an enemy unit, adjacent to you 1 space."
     },
     {
-        "id": "ari-green-i-liquid-leap",
-        "name": "Liquid Leap",
-        "color": "green",
-        "type": "skill - ranged",
-        "tier": "I",
-        "text": "Place yourself into a space in range without a spawn point and not adjacent to an empty spawn point.",
-        "alternative": false
-    },
-    {
-        "id": "ari-blue-ii-expert-duelist",
-        "name": "Expert Duelist",
-        "color": "blue",
-        "type": "defense",
+        "id": "ari-red-ii",
+        "name": "High Tide",
+        "color": "red",
         "tier": "II",
-        "text": "Ignore all minion defense modifiers.\n**This turn:** You are immune to attack actions of all enemy heroes, except this attacker.",
-        "alternative": false
+        "alternative": false,
+        "type": "attack - ranged",
+        "text": "Target a unit in range.\nAfter the attack: Push up to one token, or an enemy unit, adjacent to you 1 space."
     },
     {
-        "id": "ari-red-ii-rogue-wave",
+        "id": "ari-red-iii",
         "name": "Rogue Wave",
         "color": "red",
-        "type": "attack - ranged",
-        "tier": "II",
-        "text": "Target a unit in range.\nAfter the attack: You may push an enemy unit adjacent to you up to 2 spaces.",
-        "alternative": true
-    },
-    {
-        "id": "ari-green-ii-magical-current",
-        "name": "Magical Current",
-        "color": "green",
-        "type": "skill - ranged",
-        "tier": "II",
-        "text": "Place yourself into a space in range without a spawn point and not adjacent to an empty spawn point.",
-        "alternative": false
-    },
-    {
-        "id": "ari-blue-ii-slippery-ground",
-        "name": "Slippery Ground",
-        "color": "blue",
-        "type": "movement",
-        "tier": "II",
-        "text": "**This turn:** Enemies heroes adjacent to you cannot fast travel, or move more than 1 space with a movement action.",
-        "alternative": true
-    },
-    {
-        "id": "ari-red-ii-raging-stream",
-        "name": "Raging Stream",
-        "color": "red",
-        "type": "attack",
-        "tier": "II",
-        "text": "Target a unit adjacent to you.\nBefore the attack: Up to 1 enemy hero in any of the 3 spaces in a straight line directly behind the target discards a card, or is defeated.",
-        "alternative": false
-    },
-    {
-        "id": "ari-green-ii-arcane-whirlpool",
-        "name": "Arcane Whirlpool",
-        "color": "green",
-        "type": "skill - ranged",
-        "tier": "II",
-        "text": "Swap with an enemy minion in range.\n_(Swap places with the target. This is not movement.)_",
-        "alternative": true
-    },
-    {
-        "id": "ari-blue-iii-master-duelist",
-        "name": "Master Duelist",
-        "color": "blue",
-        "type": "defense",
         "tier": "III",
-        "text": "Ignore all minion defense modifiers.\n**This round:** You are immune to attack actions of all enemy heroes, except this attacker.",
-        "alternative": false
+        "alternative": false,
+        "type": "attack - ranged",
+        "text": "Target a unit in range.\nAfter the attack: Move the target up to 1 space. Push up to one token, or an enemy unit, adjacent to you 1 space."
     },
     {
-        "id": "ari-red-iii-violent-torrent",
+        "id": "ari-red-ii-alt",
         "name": "Violent Torrent",
         "color": "red",
+        "tier": "II",
+        "alternative": true,
         "type": "attack",
-        "tier": "III",
-        "text": "Target a unit adjacent to you.\nBefore the attack: Up to 1 enemy hero in any of the 5 spaces in a straight line directly behind the target discards a card, or is defeated.\nMay repeat once on a different unit.",
-        "alternative": false
+        "text": "Target a unit adjacent to you.\nBeforethe attack: One enemy hero in any of the 3 spaces in a straight line directly behind the target discards a card, or is defeated."
     },
     {
-        "id": "ari-green-iii-stranger-tide",
+        "id": "ari-red-iii-alt",
+        "name": "Raging Waters",
+        "color": "red",
+        "tier": "III",
+        "alternative": true,
+        "type": "attack",
+        "text": "Target a unit adjacent to you.\nBeforethe attack: One enemy hero in any of the 5 spaces in a straight line directly behind the target discards a card, or is defeated.\nMay repeat once on a different target."
+    },
+    {
+        "id": "ari-green-i",
+        "name": "Waveform",
+        "color": "green",
+        "tier": "I",
+        "alternative": false,
+        "type": "skill - ranged",
+        "text": "Place yourself into a space in range without a spawn point and not adjacent to an empty spawn point."
+    },
+    {
+        "id": "ari-green-ii",
+        "name": "Magical Current",
+        "color": "green",
+        "tier": "II",
+        "alternative": false,
+        "type": "skill - ranged",
+        "text": "Place yourself into a space in range without a spawn point and not adjacent to an empty spawn point."
+    },
+    {
+        "id": "ari-green-iii",
         "name": "Stranger Tide",
         "color": "green",
-        "type": "skill - ranged",
         "tier": "III",
-        "text": "Place yourself into a space in range without a spawn point.",
-        "alternative": false
+        "alternative": false,
+        "type": "skill - ranged",
+        "text": "Place yourself into a space in range without a spawn point."
     },
     {
-        "id": "ari-blue-iii-deluge",
+        "id": "ari-green-ii-alt",
+        "name": "Arcane Swap",
+        "color": "green",
+        "tier": "II",
+        "alternative": true,
+        "type": "skill - ranged",
+        "text": "Swap with a minion or a friendly hero in range.\n_(Swap places with the target. This is not movement.)_"
+    },
+    {
+        "id": "ari-green-iii-alt",
+        "name": "Empowered Swap",
+        "color": "green",
+        "tier": "III",
+        "alternative": true,
+        "type": "skill - ranged",
+        "text": "Swap with a unit or a token in range,"
+    },
+    {
+        "id": "ari-blue-i",
+        "name": "Aspiring Duelist",
+        "color": "blue",
+        "tier": "I",
+        "alternative": false,
+        "type": "defense",
+        "text": "Ignore all minion defense modifiers.\n_(This includes your minions, as well as the enemy minions.)_"
+    },
+    {
+        "id": "ari-blue-ii",
+        "name": "Expert Duelist",
+        "color": "blue",
+        "tier": "II",
+        "alternative": false,
+        "type": "defense",
+        "text": "Ignore all minion defense modifiers.\n**This turn:** You are immune to all other enemy attack actions."
+    },
+    {
+        "id": "ari-blue-iii",
+        "name": "Master Duelist",
+        "color": "blue",
+        "tier": "III",
+        "alternative": false,
+        "type": "defense",
+        "text": "Ignore all minion defense modifiers.\n**This turn:** You are immune to all other enemy attack actions."
+    },
+    {
+        "id": "ari-blue-ii-alt",
+        "name": "Slippery Ground",
+        "color": "blue",
+        "tier": "II",
+        "alternative": true,
+        "type": "skill - area",
+        "text": "**This turn:** Enemies in radius cannot move more than 1 space with a movement action.\n_(Enemies who start movement out of radius are unaffected.)_"
+    },
+    {
+        "id": "ari-blue-iii-alt",
         "name": "Deluge",
         "color": "blue",
-        "type": "movement",
         "tier": "III",
-        "text": "**This turn:** Enemies in radius cannot fast travel, or move more than 1 space with a movement action.",
-        "alternative": true
+        "alternative": true,
+        "type": "skill - area",
+        "text": "**This turn and next turn:** Enemies in radius cannot move more than 1 space with a movement action."
     },
     {
-        "id": "ari-red-iii-tidal-blast",
-        "name": "Tidal Blast",
-        "color": "red",
-        "type": "attack - ranged",
-        "tier": "III",
-        "text": "Target a unit in range.\nAfter the attack: You may push an enemy unit adjacent to you up to 3 spaces.",
-        "alternative": true
-    },
-    {
-        "id": "ari-green-iii-ebb-and-flow",
-        "name": "Ebb and Flow",
-        "color": "green",
-        "type": "skill - ranged",
-        "tier": "III",
-        "text": "Swap with an enemy minion in range.\nIf it was adjacent to you, may repeat once.",
-        "alternative": true
+        "id": "ari-purple-iv",
+        "name": "Living Tsunami",
+        "color": "purple",
+        "tier": "IV",
+        "alternative": false,
+        "type": "ultimate",
+        "text": "After you perform a basic skill, you may trigger a minion battle in the battle zone you are in."
     }
 ]

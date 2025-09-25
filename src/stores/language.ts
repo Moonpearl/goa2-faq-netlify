@@ -5,8 +5,8 @@ import { createI18n } from 'vue-i18n';
 
 export const locales = {
     en: { label: 'English', flag: '🇬🇧' },
-    de: { label: 'Deutsch', flag: '🇩🇪' },
-    // fr: { label: 'Français', flag: '🇫🇷' },
+    // de: { label: 'Deutsch', flag: '🇩🇪' },
+    fr: { label: 'Français', flag: '🇫🇷' },
     // it: { label: 'Italiano', flag: '🇮🇹' },
 };
 
