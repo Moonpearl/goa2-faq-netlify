@@ -1,173 +1,173 @@
 [
     {
-        "id": "sab-gold-point-blank-shot",
-        "name": "Point Blank Shot",
-        "color": "gold",
-        "type": "basic attack - ranged",
-        "tier": null,
-        "text": "After the attack: If the target is adjacent, push the target 1 space.\n_(A unit pushed into an obstacle will stop. This is a valid push)_ ",
-        "alternative": false
-    },
-    {
-        "id": "sab-gold-h-bang",
-        "name": "Bang",
-        "color": "gold",
-        "type": "basic attack",
-        "tier": "H",
-        "text": "Target a hero adjacent to you.\nAfter the attack: Push the target 1 space.",
-        "alternative": false
-    },
-    {
-        "id": "sab-silver-back-to-back",
+        "id": "sab-silver",
         "name": "Back to Back",
         "color": "silver",
-        "type": "basic skill",
         "tier": null,
-        "text": "Swap with a friendly minion in radius.",
-        "alternative": false
+        "alternative": false,
+        "type": "basic skill - area",
+        "text": "You may swap with a friendly minion adjacent to you.\n**This turn:** You and friendly heroes in radius gain +1 ::defense:: Defense if adjacent to one or more friendly minions."
     },
     {
-        "id": "sab-purple-iv-big-sodding-gun",
-        "name": "Big Sodding Gun",
-        "color": "purple",
-        "type": "ultimate",
-        "tier": "IV",
-        "text": "Your basic attack has +2 ::range:: Range and +2 ::attack:: Attack. If you push an enemy hero, that hero discards a card, or is defeated.",
-        "alternative": false
+        "id": "sab-gold",
+        "name": "Point Blank Shot",
+        "color": "gold",
+        "tier": null,
+        "alternative": false,
+        "type": "basic attack - ranged",
+        "text": "Target a unit in range.\nAfter the attack: Push the target 1 space, if it is adjacent to you.\n_(A unit pushed into an obstacle will stop. This is a valid push)_"
     },
     {
-        "id": "sab-blue-i-listen-up",
-        "name": "Listen Up",
-        "color": "blue",
-        "type": "skill",
-        "tier": "I",
-        "text": "Swap two minions in radius.",
-        "alternative": false
+        "id": "sab-gold-h",
+        "name": "Bang",
+        "color": "gold",
+        "tier": "H",
+        "alternative": false,
+        "type": "basic attack",
+        "text": "Target a hero adjacent to you.\nAfter the attack: Push the target 1 space."
     },
     {
-        "id": "sab-red-i-quickdraw",
+        "id": "sab-red-i",
         "name": "Quickdraw",
         "color": "red",
+        "tier": "I",
+        "alternative": false,
         "type": "attack - ranged",
-        "tier": "I",
-        "text": "Target a unit in range. +3 ::attack:: Attack if the target played an attack card this turn.",
-        "alternative": false
+        "text": "Target a unit in range, not adjacent to you."
     },
     {
-        "id": "sab-green-i-troop-movement",
-        "name": "Troop Movement",
-        "color": "green",
-        "type": "skill",
-        "tier": "I",
-        "text": "Move a friendly minion in radius up to 1 space, to a space in radius. May repeat once.",
-        "alternative": false
-    },
-    {
-        "id": "sab-blue-ii-roger-roger",
-        "name": "Roger Roger",
-        "color": "blue",
-        "type": "skill",
-        "tier": "II",
-        "text": "Swap two minions in radius.",
-        "alternative": false
-    },
-    {
-        "id": "sab-red-ii-gunslinger",
+        "id": "sab-red-ii",
         "name": "Gunslinger",
         "color": "red",
+        "tier": "II",
+        "alternative": false,
         "type": "attack - ranged",
-        "tier": "II",
-        "text": "Target a unit in range. +3 ::attack:: Attack if the target played an attack card this turn.",
-        "alternative": false
+        "text": "Target a unit in range, not adjacent to you.\n+2 ::attack:: Attack if the target hero played an attack card this turn.\n_(A revealed card is \"played\" even if it's not resolved yet.)_"
     },
     {
-        "id": "sab-green-ii-marching-orders",
-        "name": "Marching Orders",
-        "color": "green",
-        "type": "skill",
-        "tier": "II",
-        "text": "Move a friendly minion in radius 1 space, to a space in radius. May repeat once.",
-        "alternative": false
-    },
-    {
-        "id": "sab-green-ii-close-support",
-        "name": "Close Support",
-        "color": "green",
-        "type": "skill",
-        "tier": "II",
-        "text": "An enemy hero in radius adjacent to your friendly minion discards a card, if able.",
-        "alternative": true
-    },
-    {
-        "id": "sab-blue-ii-steady-advance",
-        "name": "Steady Advance",
-        "color": "blue",
-        "type": "skill",
-        "tier": "II",
-        "text": "If there are two or more friendly minions in radius, you may retrieve a discarded card;\nif you do, you may move 1 space.",
-        "alternative": true
-    },
-    {
-        "id": "sab-red-ii-shootout",
-        "name": "Shootout",
-        "color": "red",
-        "type": "attack - ranged",
-        "tier": "II",
-        "text": "Target a unit in range.\nAfter the attack: If the target was adjacent to you, remove up to one enemy minion adjacent to you.\n_(You gain no coins for removing a minion, only defeating.)_",
-        "alternative": true
-    },
-    {
-        "id": "sab-blue-iii-ready-and-waiting",
-        "name": "Ready and Waiting",
-        "color": "blue",
-        "type": "skill",
-        "tier": "III",
-        "text": "Swap two minions in radius, ignoring heavy minion immunity.",
-        "alternative": false
-    },
-    {
-        "id": "sab-red-iii-dead-shot",
+        "id": "sab-red-iii",
         "name": "Dead Shot",
         "color": "red",
+        "tier": "III",
+        "alternative": false,
         "type": "attack - ranged",
-        "tier": "III",
-        "text": "Target a unit in range. +4 ::attack:: Attack if the target played an attack card this turn.",
-        "alternative": false
+        "text": "Target a unit in range.\n+2 ::attack:: Attack if the target hero played an attack card this turn."
     },
     {
-        "id": "sab-green-iii-path-to-victory",
-        "name": "Path to Victory",
-        "color": "green",
-        "type": "skill",
-        "tier": "III",
-        "text": "Move a friendly minion in radius 1 space, to a space in radius. May repeat up to two times.",
-        "alternative": false
+        "id": "sab-red-ii-alt",
+        "name": "Shootout",
+        "color": "red",
+        "tier": "II",
+        "alternative": true,
+        "type": "attack - ranged",
+        "text": "Target a unit in range.\nAfter the attack: If you defeated a minion with this attack, and there is no enemy hero in range, you may remove a non-heavy minion adjacent to you.\n_(You gain no coins for removing a minion.)_"
     },
     {
-        "id": "sab-blue-iii-unwavering-resolve",
-        "name": "Unwavering Resolve",
-        "color": "blue",
-        "type": "skill",
-        "tier": "III",
-        "text": "If there are two or more friendly minions in radius, you may retrieve a discarded card;\nif you do, you may move up to 2 spaces.",
-        "alternative": true
-    },
-    {
-        "id": "sab-red-iii-bullet-hell",
+        "id": "sab-red-iii-alt",
         "name": "Bullet Hell",
         "color": "red",
-        "type": "attack - ranged",
         "tier": "III",
-        "text": "Target a unit in range.\nAfter the attack: If the target was adjacent to you, remove up to two enemy minions adjacent to you.",
-        "alternative": true
+        "alternative": true,
+        "type": "attack - ranged",
+        "text": "Target a unit in range.\nAfter the attack: If you defeated a minion with this attack, and there is no enemy hero in range, you may remove a non-heavy minion in range."
     },
     {
-        "id": "sab-green-iii-covering-fire",
-        "name": "Covering Fire",
+        "id": "sab-green-i",
+        "name": "Command",
         "color": "green",
-        "type": "skill",
+        "tier": "I",
+        "alternative": false,
+        "type": "skill - area",
+        "text": "Move any 1 friendly minion in radius up to 2 spaces; ignore heavy minion immunity.\n_(You may move a heavy minion with this skill.)_"
+    },
+    {
+        "id": "sab-green-ii",
+        "name": "Control",
+        "color": "green",
+        "tier": "II",
+        "alternative": false,
+        "type": "skill - area",
+        "text": "Move any 1 friendly minion in radius up to 3 spaces; ignore heavy minion immunity."
+    },
+    {
+        "id": "sab-green-iii",
+        "name": "Tactical Advantage",
+        "color": "green",
         "tier": "III",
-        "text": "An enemy hero in radius adjacent to your friendly minion discards a card, or is defeated.",
-        "alternative": true
+        "alternative": false,
+        "type": "skill - area",
+        "text": "Move any 1 friendly minion in radius up to 3 spaces; ignore heavy minion immunity.\nMay repeat once."
+    },
+    {
+        "id": "sab-green-ii-alt",
+        "name": "Lead the Charge",
+        "color": "green",
+        "tier": "II",
+        "alternative": true,
+        "type": "defense",
+        "text": "If you are adjacent to a friendly minion, block the attack."
+    },
+    {
+        "id": "sab-green-iii-alt",
+        "name": "Plot Armor",
+        "color": "green",
+        "tier": "III",
+        "alternative": true,
+        "type": "defense",
+        "text": "If you are adjacent to a friendly minion, block the attack and **This turn:** You are immune to all other enemy actions."
+    },
+    {
+        "id": "sab-blue-i",
+        "name": "Basic Drill",
+        "color": "blue",
+        "tier": "I",
+        "alternative": false,
+        "type": "movement - area",
+        "text": "**This round:** When you, or a friendly hero, perform a basic attack, count all friendly minions in radius, including the immune ones, as ranged."
+    },
+    {
+        "id": "sab-blue-ii",
+        "name": "Battle Drill",
+        "color": "blue",
+        "tier": "II",
+        "alternative": false,
+        "type": "movement - area",
+        "text": "**This round:** When you, or a friendly hero, perform an attack, count all friendly minions in radius, including the immune ones, as ranged."
+    },
+    {
+        "id": "sab-blue-iii",
+        "name": "Field Promotion",
+        "color": "blue",
+        "tier": "III",
+        "alternative": false,
+        "type": "movement - area",
+        "text": "**This round:** When you, or a friendly hero, perform an attack, count all friendly minions in radius, including the immune ones, as both melee and ranged.\n_(This can reduce the defense total by up to 2 per minion.)_"
+    },
+    {
+        "id": "sab-blue-ii-alt",
+        "name": "Close Support",
+        "color": "blue",
+        "tier": "II",
+        "alternative": true,
+        "type": "skill - area",
+        "text": "If you are adjacent to a friendly minion, an enemy hero in radius discard a card, if able."
+    },
+    {
+        "id": "sab-blue-iii-alt",
+        "name": "Covering Fire",
+        "color": "blue",
+        "tier": "III",
+        "alternative": true,
+        "type": "skill - area",
+        "text": "If you are adjacent to a friendly minion, an enemy hero in radius discard a card, or is defeated."
+    },
+    {
+        "id": "sab-purple-iv",
+        "name": "Big Sodding Gun",
+        "color": "purple",
+        "tier": "IV",
+        "alternative": false,
+        "type": "ultimate",
+        "text": "Your basic attack has +2 ::range:: Range and +2 ::attack:: Attack. If you push an enemy hero, that hero discards a card, or is defeated."
     }
 ]

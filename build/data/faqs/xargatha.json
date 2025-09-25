@@ -1,16 +1,43 @@
 {
-    "faq-xar-uxm2IDQl": {
-        "q": "What does Xargatha's Stone Gaze affect and not affect?",
-        "a": "It prevents “movement actions”, that is, selecting the movement option when resolving a card:\n - ❌ They **can’t** use a normal movement action to move.\n - ❌ They **can’t** use a movement action to fast travel (which chooses, then replaces, a movement action).\n - ✅ They **can** use a “place” or “swap” effect (such as Arien’s Alt Blue).\n - ✅ They **can** be pushed or moved by another effect (if the effect ignores immunity).\n - ✅ They **can** take another action type that involves movement (such as Brogan’s Primary Red) or a Fast Travel (Silverarrow’s Gold).",
+    "faq-xar-81t69G1Q": {
+        "q": "How does Xargatha’s Gold card work?",
+        "a": "After attacking, this card creates an active effect for the rest of the turn. After Xargatha is made to discard, she can resolve the primary action of an attack card in her discard (since Gold is active, this will be Red). In effect, attacking Xargatha or forcing her to discard might grant her an extra attack.",
         "ref": [
-            "xar-blue-i-stone-gaze",
-            "xar-blue-ii-petrifying-stare",
-            "xar-blue-iii-turn-into-statues"
+            "xar-gold",
+            "xar-gold-h"
+        ]
+    },
+    "faq-xar-nMZ2b17x": {
+        "q": "Can Xargatha’s Silver card be repeated on the same unit?",
+        "a": "Yes. If it’s still the nearest non-immune enemy unit, and isn’t yet adjacent, the same target can be pulled up to 4 spaces.\n- If the target is unable to be moved, for example, if it is in the radius of a friendly Brogan’s Silver, then the effect will try and fail to move the target, twice.",
+        "ref": [
+            "xar-silver"
+        ]
+    },
+    "faq-xar-uxm2IDQl": {
+        "q": "What do Xargatha's Primary Blue cards affect and not affect?",
+        "a": "It prevents “movement actions”, that is, selecting the movement option when resolving a card:\n - ❌ They **can’t** use a normal movement action to move.\n - ❌ They **can’t** use a movement action to fast travel (which chooses, then replaces, a movement action).\n - ✅ They **can** use a “place” or “swap” effect (such as Arien’s Alt Blue).\n - ✅ They **can** be pushed or moved by another effect (if the effect ignores immunity).\n - ✅ They **can** take another action type that involves movement (such as Brogan’s Primary Red) or a Fast Travel (Silverarrow’s Gold).\nNote that this effect differs from Xargatha’s Alternative Green cards.",
+        "ref": [
+            "xar-blue-i",
+            "xar-blue-ii",
+            "xar-blue-iii"
         ]
     },
     "faq-xar-BBNWEowq": {
-        "q": "Does Xargatha's Constrict affect heavy minions as well?",
-        "a": "No. Initially you can only kill **melee** minions, but on Tier 3 you can get melee or ranged minions, but never the heavy minion.",
-        "ref": ["xar-green-ii-constrict", "xar-green-iii-final-embrace"]
+        "q": "What do Xargatha’s Alternative Green cards affect and not affect?",
+        "a": "It prevents movement except for using the cards listed, but there are some corner cases:\n• They can’t use a normal movement action to move, except using a Gold (TII/III) or Red (TII only) card.\n• They can’t use a movement action to fast travel (which chooses, then replaces, a movement action), except for the card colors.\n• They can’t move as part of another card text. If the ability they choose includes movement, the effect would “fizzle” — stop resolving. For example, Brogan’s Primary Red requires movement before attacking, so he would not be able to move and attack this way. (Against the TII effect, he could resolve a movement action with his red card, but not the attack.)\n• They can use a “place” or “swap” effect (such as Arien’s Alt Blue).\n• The can be pushed or moved by another effect.\n• They can take another action type that explicitly involves Fast Travel (Silverarrow’s Gold).\nNote that this effect differs from Xargatha’s Primary Blue cards.",
+        "ref": [
+            "xar-green-ii-alt",
+            "xar-green-iii-alt"
+        ]
+    },
+    "faq-xar-8b9y16Gi": {
+        "q": "What modifiers do Xargatha’s Primary Green cards affect?",
+        "a": "The Primary Green says “when calculating defense totals”, but remember that this includes Minions friendly to the attacker and defender. Enemy minions will help Xargatha’s team attack other Heroes and defend against them.",
+        "ref": [
+            "xar-green-i",
+            "xar-green-ii",
+            "xar-green-iii"
+        ]
     }
 }

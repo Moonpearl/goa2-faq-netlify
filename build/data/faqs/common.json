@@ -2,25 +2,47 @@
     "faq-common-OmbzNwt1": {
         "q": "What does immunity protect from?",
         "a": "Basically everything. An immune unit can’t be targeted or affected by any action. They can choose to move through and ignore tokens.\nBeware that conditional immunity only applies when the sources of an effect matches the condition (eg. “immune to enemy attack actions”)",
-        "ref": ["tig-silver-blend-into-shadows"]
+        "ref": [
+            "ari-blue-ii",
+            "ari-blue-iii",
+            "dod-blue-iii",
+            "sab-green-iii-alt",
+            "tig-silver",
+            "was-green-iii",
+            "xar-blue-i",
+            "xar-blue-ii",
+            "xar-blue-iii",
+            "xar-blue-iii-alt"
+        ]
     },
     "faq-common-J6uK9mGB": {
         "q": "Why is there a range 1 attack? Isn’t that non-ranged?",
         "a": "A range of 1 can only target an adjacent space (but the range may be increased by items or other effects). A range of 0 has no targets.\nSome cards **explicitly** interact with ranged or non-ranged attacks.",
-        "ref": ["sab-gold-point-blank-shot"]
+        "ref": [
+            "ari-red-i",
+            "bro-red-ii-alt",
+            "bro-red-iii-alt",
+            "dod-gold",
+            "dod-gold-h",
+            "sab-gold",
+            "tig-red-iii-alt"
+        ]
     },
     "faq-common-5eb64zdk": {
         "q": "Is Fast Travel the same thing as movement?",
         "a": "No. Fast Travel is a special type of action that usually replaces a Movement action. They are related but different:\n\n- When you would take a Movement action, you can fast travel instead.\n- If you use a primary Movement action to Fast Travel, you would ignore the card text, since you are replacing the action.\n- A card that lets you move (“Move 2 spaces…”) would not let you Fast Travel instead.\n- If you are prevented from moving or from taking a Movement action, you could not use a Movement action to Fast Travel.\n- If you are limited in how you move (“May only move 1 space”), you may still Fast Travel as normal, since you are allowed to select, then replace, the Movement action (and Fast Travel is a placement, not movement).",
-        "ref": ["sil-silver-trailblazer"]
+        "ref": [
+            "sil-silver-trailblazer"
+        ]
     },
     "faq-common-Xe16hzf0": {
         "q": "Does my effect trigger next round?",
         "a": "No. Active effects always “clear” at the end of the round: A “next turn” effect played on Turn 4 will **not** carry over to the next round.",
         "ref": [
-            "xar-blue-i-stone-gaze",
-            "xar-blue-ii-petrifying-stare",
-            "xar-blue-iii-turn-into-statues",
+            "ari-blue-iii-alt",
+            "tig-silver",
+            "xar-green-ii-alt",
+            "xar-green-iii-alt",
             "neb-blue-ii-time-to-reconsider",
             "neb-blue-iii-an-illusion-of-choice"
         ]
@@ -28,54 +50,33 @@
     "faq-common-Xe16hz1a": {
         "q": "What are Obstacles?",
         "a": "Obstacles are basically anything on the map: Units (Heroes and Minions), terrain shown on the map, tokens, and any other miniatures. There can only be one Obstacle on each space, and Obstacles generally can’t move through each other. If an ability does allow Obstacles to pass through each other (“you can move through Obstacles”, ignore Obstacles”, “Heroes may move through a space with a tree token”), they still may not end movement on such a space.",
-        "ref": ["sil-silver-trailblazer", "gar-red-ii-blunt-force", "gar-red-iii-send-flying"]
-    },
-    "faq-common-xNApYXXu": {
-        "q": "Would an immune hero trigger effects, that require adjacency?",
-        "a": "No. Whenever you are required to check the status of a unit, it counts as targeting, which you cannot do with an immune unit. This is different from cards such as Sabina's Steady Advance where you simply check the presence of units, rather than their status.",
         "ref": [
-            "mor-red-ii-braains-",
-            "mor-red-iii-braaaaaaaains-",
-            "bry-green-ii-true-grit",
-            "bry-green-iii-die-hard"
-        ]
-    },
-    "faq-common-itYXMsuM": {
-        "q": "Can my hero target themself with this ability?",
-        "a": "No. If your action is affecting you (your hero), it will say so in the card text. Otherwise, it will not affect you, even if it targets all units around you (“in radius”).",
-        "ref": [
-            "row-red-i-token-of-gratitude",
-            "row-red-ii-fair-share",
-            "row-red-ii-feat-of-bravery",
-            "row-red-iii-paragon-of-grace",
-            "row-red-iii-paragon-of-valor",
-            "sil-green-ii-fae-healing",
-            "sil-green-iii-natures-blessing"
+            "sab-gold",
+            "tig-silver",
+            "was-blue-ii-alt",
+            "was-blue-iii-alt",
+            "xar-purple-iv",
+            "sil-silver-trailblazer",
+            "gar-red-ii-blunt-force",
+            "gar-red-iii-send-flying"
         ]
     },
     "faq-common-fizzle": {
         "q": "Can I play an action if only some of its instructions can be performed?",
         "a": "You **must** follow the cards instructions step by step, starting from the top.\n- If you cannot perform the first instruction (e.g., there is no valid target in range, or you cannot make the required movement), you may not perform the action at all.\n- After the first instruction is successfully exectued, you continue resolving the rest of the instructions in order.\n- If you reach an instruction that is not optional and you cannot perform it, the action immediately **fizzles** — no further instructions are resolved. You place the card on your hero dashboard, and your turn ends.\n_See page 10 of the rulebook for additional reference._",
         "ref": [
-            "bro-red-i-mad-dash",
-            "bro-red-ii-bullrush",
-            "bro-red-iii-furious-charge",
-            "tig-gold-blink-strike",
-            "tig-gold-h-nimble-strike",
+            "bro-red-i",
+            "bro-red-ii",
+            "bro-red-iii",
+            "tig-gold",
+            "tig-gold-h",
+            "tig-green-i",
+            "tig-green-ii",
+            "tig-green-iii",
             "gyd-book-r-iii-energy-drain"
         ],
-        "sources": ["rulebook:p10"]
-    },
-    "faq-common-XrLhpx8c": {
-        "q": "How does temporary immunity interact with abilities and triggers that target a unit at end of turn?",
-        "a": "All players resolve their End of Turn abilities **before the turn ends**, so a unit that is immune during “this turn” is still immune when end of turn resolves.\n Because immune units cannot be chosen as targets, they are still protected from end of turn effects such as Min’s Death Grenade.",
-        "ref": [
-            "han-blue-i-unexpected-journey",
-            "han-blue-ii-there-and-back-again",
-            "han-blue-iii-safe-travels",
-            "min-blue-ii-death-grenade",
-            "min-blue-iii-holy-death-grenade"
-        ],
-        "sources": ["rulebook:p7", "rulebook:p17"]
+        "sources": [
+            "rulebook:p10"
+        ]
     }
 }
