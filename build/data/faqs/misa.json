@@ -1,0 +1,69 @@
+{
+    "faq-mis-9icT8gG7": {
+        "q": "Misa’s Gold “ignores the effects of tokens.” What does that include?",
+        "a": "Misa ignores the effects of tokens themselves, but not Actions or Active Effects that use those tokens.\n- She would ignore Min’s Mines and Smoke Bomb and Tali’s Ice Tokens. She could still be forced to discard by Min’s Grenade (an Active Effect) or targeted by Wuk’s Primary Red (_Nature’s Protector_), which only requires her to be adjacent to a Tree Token.",
+        "ref": [
+            "mis-gold"
+        ]
+    },
+    "faq-mis-872OuVpW": {
+        "q": "What does Misa’s Silver force Heroes to do?",
+        "a": "The only requirement of Swoop In is that heroes in radius must target Misa with attack actions if she is an eligible target. They would not be forced to target Misa in the following examples:\n- An enemy hero may use an attack for another action, such as movement, instead.\n- An enemy hero with a targeting restriction on their attack may not be able to target Misa, and would be unaffected. Swift’s Primary Red (_Prepared Shot_) targets a non-adjacent unit. If Swift is adjacent to Misa, she is not allowed to shoot Misa, so she can ignore Swoop In and pick any valid target.\n- An enemy hero with movement before their attack may move freely, and then choose a different target — even if they had an option to move and target Misa — as long as Misa is not a valid target after their movement. Tigerclaw’s Gold (_Blink Strike_) moves 2 spaces through a unit and then targets the unit. He could move through and attack a different target, even if Misa would have been an option, since Tigerclaw freely picks his movement before Swoop In restricts his targeting.\n- Note that a unit moving into Misa’s radius as part of another action would be affected by Swoop In after their movement. If they target after their movement, and Misa is a valid target, they must target her. Brogan’s Primary Red (_Mad Dash_) moves several spaces and then targets. Brogan can make any valid move, but if he ends in Misa’s radius, he must target her if she is a valid target, even if he began the charge outside of the radius.",
+        "ref": [
+            "mis-silver",
+            "mis-silver-h"
+        ]
+    },
+    "faq-mis-gfW2c17j": {
+        "q": "If Misa plays Silver and then discards for some other reason, does she gain coins?",
+        "a": "Yes. If Misa has Swoop In active, she gains coins for her first discard, regardless of the reason.",
+        "ref": [
+            "mis-silver",
+            "mis-silver-h"
+        ]
+    },
+    "faq-mis-kUOh8C68": {
+        "q": "How and why does Misa’s Tier III Red restrict her target so they “cannot choose to not defend”?",
+        "a": "Misa’s target must discard a card to defend, if able, even if the defense will not be successful. Normally a hero who is unable to defend successfully will not defend at all, to have more cards after respawning — in this case, Misa’s victim is forced to defend unsuccessfully.",
+        "ref": [
+            "mis-red-iii"
+        ]
+    },
+    "faq-mis-c4Vl76z2": {
+        "q": "Does Misa’s Alt Red Push its target?",
+        "a": "No. The effect is not a Push, and does not work like a Push. Misa can choose the movement, as long as it ends up in a space farther than it was before the movement.",
+        "ref": [
+            "mis-red-ii-alt",
+            "mis-red-iii-alt"
+        ]
+    },
+    "faq-mis-7y5Ocd8c": {
+        "q": "Misa’s Primary Blue ignores obstacles. Does this ignore tokens?",
+        "a": "Actually, no! “Ignoring Obstacles” means moving freely through them, but their effects are still applied. For example, Min’s Mines would still trigger after she moves through them (an effect of the token).",
+        "ref": [
+            "mis-blue-i",
+            "mis-blue-ii",
+            "mis-blue-iii"
+        ]
+    },
+    "faq-mis-V58R7KUy": {
+        "q": "If Misa uses Primary Green, can she resolve the same card twice with different actions?",
+        "a": "No. Misa’s Primary Green repeats an action, it doesn’t play the card twice, so the same action is used on the repeat.",
+        "ref": [
+            "mis-green-i",
+            "mis-green-ii",
+            "mis-green-iii"
+        ]
+    },
+    "faq-mis-Y7w06Zrr": {
+        "q": "If Misa uses Primary Green to repeat an action, and she plays Silver afterwards, does she gain double the money?",
+        "a": "No. Repeating an action with an Active Effect does not duplicate the Active Effect, so Misa could not gain extra coins for a discard (or multiple discards).",
+        "ref": [
+            "mis-silver",
+            "mis-silver-h",
+            "mis-green-i",
+            "mis-green-ii",
+            "mis-green-iii"
+        ]
+    }
+}

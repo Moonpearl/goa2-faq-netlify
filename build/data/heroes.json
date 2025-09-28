@@ -213,7 +213,7 @@
         },
         "cards": "cards/misa.json",
         "lore": "Misa will fight against overwhelming odds to protect her master. Unfortunately, she has yet to find anyone worthy of her blade and loyalty.",
-        "advice": "- You only have one attack card — make it count.\n- Watch for opportunities to use your silver card for extra mobility and self-healing.\n- Your primary role in the game heavily depends on your blue and green level-up choices, so ensure they align with your teammates.\n- If your team is focused on winning the waves rather than fighting heroes, you probably don't need the \"Slash and Dash.\"\n- Your alt-green is strong, but tricky to land.\n"
+        "advice": "- Mise is one of the quirkiest heroes in the game. Most of your cards do not follow the usual conventions.\n- You only have one attack card. Make it count.\n- Your gold card is both your best defense and best movement, but it cannot defeat minions.\n- Your role is closely tied to your choice of green card. One branch helps with pushing the lane, while the other is more fight-oriented.\n- When used in the right moment, your silver card can both deny minion and protect allies.\n"
     },
     {
         "id": "urs",
