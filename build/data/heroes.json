@@ -249,7 +249,7 @@
         },
         "cards": "cards/silverarrow.json",
         "lore": "Silverarrow never imagined she would leave the Forest until the Oracle uttered the prophecy. The hardest step of any path is the very first one; after that, you just keep moving.",
-        "advice": "- Your ranged attacks have extended range, but they can easily be disrupted.\n- Know your weaknesses and don’t let enemies catch you off guard. Staying too close to enemy units makes you vulnerable, so maintain your distance.\n- However, don’t be tempted to avoid the fight entirely — your allies rely on your firepower and utility skills, and abandoning them could cost you the game.\n"
+        "advice": "- Your ranged attacks are among the most powerful, but they are fairly easy to disrupt. Know your weaknesses and don't let the enemies surprise you.\n- Being adjacent to enemy units disables a large portion of your abilities. Keep your distance!\n- While it may feel tempting to stay away from the fight, don't leave your allies alone. They rely on your firepower and utility skills.\n"
     },
     {
         "id": "min",

@@ -1,173 +1,173 @@
 [
     {
-        "id": "sil-gold-shoot-and-scoot",
-        "name": "Shoot and Scoot",
-        "color": "gold",
-        "type": "basic attack - ranged",
-        "tier": null,
-        "text": "Target a unit at maximum range.\nAfter the attack: If able, you may fast travel to an adjacent zone.",
-        "alternative": false
-    },
-    {
-        "id": "sil-gold-h-keep-the-distance",
-        "name": "Keep the Distance",
-        "color": "gold",
-        "type": "basic attack - ranged",
-        "tier": "H",
-        "text": "Target a hero at maximum range.\nAfter the attack: If able, you may fast travel up to an adjacent zone.",
-        "alternative": false
-    },
-    {
-        "id": "sil-silver-trailblazer",
+        "id": "sil-silver",
         "name": "Trailblazer",
         "color": "silver",
-        "type": "basic skill",
         "tier": null,
-        "text": "You may fast travel, if able.\n**This round:** You and friendly heroes in radius may ignore obstacles while performing movement actions.",
-        "alternative": false
+        "alternative": false,
+        "type": "basic skill",
+        "text": "If you are not adjacent to an enemy unit, you may move up to 4 spaces in a straight line to a space not adjacent to an enemy unit."
     },
     {
-        "id": "sil-purple-iv-wild-hunt",
-        "name": "Wild Hunt",
-        "color": "purple",
-        "type": "ultimate",
-        "tier": "IV",
-        "text": "Each time before you perform an action, you may move 2 spaces in a straight line.",
-        "alternative": false
+        "id": "sil-gold",
+        "name": "Hit and Run",
+        "color": "gold",
+        "tier": null,
+        "alternative": false,
+        "type": "basic attack - ranged",
+        "text": "Cannot attack if you are adjacent to an enemy unit.\nTarget a unit in range.\nAfter the attack: You may fast travel, if able."
     },
     {
-        "id": "sil-blue-i-grasping-roots",
-        "name": "Grasping Roots",
-        "color": "blue",
-        "type": "skill",
-        "tier": "I",
-        "text": "**This turn:** Enemy heroes in radius cannot fast travel, or move more than 1 space with a movement action.",
-        "alternative": false
+        "id": "sil-gold-h",
+        "name": "Keep the Distance",
+        "color": "gold",
+        "tier": "H",
+        "alternative": false,
+        "type": "basic attack - ranged",
+        "text": "Cannot attack if you are adjacent to an enemy unit.\nTarget a hero in range.\nAfter the attack: You may fast travel within the same zone, if able."
     },
     {
-        "id": "sil-red-i-snap-shot",
+        "id": "sil-red-i",
         "name": "Snap Shot",
         "color": "red",
+        "tier": "I",
+        "alternative": false,
         "type": "attack - ranged",
-        "tier": "I",
-        "text": "**Choose one —**\n- Target a unit in range, which is not adjacent to any other unit.\n- Target a unit adjacent to you.",
-        "alternative": false
+        "text": "-2 ::range:: Range for every unit adjacent to the target, including you.\nTarget a hero in range, or a minion adjacent to you and in range.\n_(If your range is below 1, you cannot perform this action.)_"
     },
     {
-        "id": "sil-green-i-disorient",
-        "name": "Disorient",
-        "color": "green",
-        "type": "skill",
-        "tier": "I",
-        "text": "Move an enemy unit adjacent to you 1 space;\nif you do, you may move 1 space.",
-        "alternative": false
-    },
-    {
-        "id": "sil-blue-ii-entangling-vines",
-        "name": "Entangling Vines",
-        "color": "blue",
-        "type": "skill",
-        "tier": "II",
-        "text": "**This turn:** Enemy heroes in radius cannot fast travel, or move more than 1 space with a movement action.",
-        "alternative": false
-    },
-    {
-        "id": "sil-red-ii-opportunity-shot",
+        "id": "sil-red-ii",
         "name": "Opportunity Shot",
         "color": "red",
+        "tier": "II",
+        "alternative": false,
         "type": "attack - ranged",
-        "tier": "II",
-        "text": "**Choose one —**\n- Target a unit in range, which is not adjacent to any other unit.\n- Target a unit adjacent to you.",
-        "alternative": false
+        "text": "-2 ::range:: Range for every unit adjacent to the target, including you.\nTarget a unit in range."
     },
     {
-        "id": "sil-green-ii-divert-attention",
-        "name": "Divert Attention",
-        "color": "green",
-        "type": "skill",
-        "tier": "II",
-        "text": "Move an enemy unit adjacent to you up to 2 spaces; if you do, move up to that number of spaces in a straight line.",
-        "alternative": false
-    },
-    {
-        "id": "sil-blue-ii-warning-shot",
-        "name": "Warning Shot",
-        "color": "blue",
-        "type": "skill",
-        "tier": "II",
-        "text": "**End of turn:** An enemy hero in radius discards a card, if able.",
-        "alternative": true
-    },
-    {
-        "id": "sil-red-ii-long-shot",
-        "name": "Long Shot",
-        "color": "red",
-        "type": "attack - ranged",
-        "tier": "II",
-        "text": "Target a unit at maximum range.",
-        "alternative": true
-    },
-    {
-        "id": "sil-green-ii-fae-healing",
-        "name": "Fae Healing",
-        "color": "green",
-        "type": "skill",
-        "tier": "II",
-        "text": "A hero in radius may retrieve a discarded card; if they do, that hero gains 1 coin.",
-        "alternative": true
-    },
-    {
-        "id": "sil-blue-iii-grappling-branches",
-        "name": "Grappling Branches",
-        "color": "blue",
-        "type": "skill",
-        "tier": "III",
-        "text": "**This turn:** Enemy heroes in radius cannot fast travel, or move more than 1 space with a movement action.",
-        "alternative": false
-    },
-    {
-        "id": "sil-red-iii-clear-shot",
+        "id": "sil-red-iii",
         "name": "Clear Shot",
         "color": "red",
+        "tier": "III",
+        "alternative": false,
         "type": "attack - ranged",
-        "tier": "III",
-        "text": "**Choose one —**\n- Target a unit in range, which is not adjacent to any other unit.\n- Target a unit adjacent to you.",
-        "alternative": false
+        "text": "-2 ::range:: Range for every unit adjacent to the target, including you.\nTarget a unit in range."
     },
     {
-        "id": "sil-green-iii-lead-astray",
-        "name": "Lead Astray",
-        "color": "green",
-        "type": "skill",
-        "tier": "III",
-        "text": "Move an enemy unit adjacent to you up to 3 spaces; if you do, move up to that number of spaces in a straight line.",
-        "alternative": false
+        "id": "sil-red-ii-alt",
+        "name": "Long Shot",
+        "color": "red",
+        "tier": "II",
+        "alternative": true,
+        "type": "attack - ranged",
+        "text": "Target a unit at maximum range."
     },
     {
-        "id": "sil-blue-iii-treetop-sentinel",
-        "name": "Treetop Sentinel",
-        "color": "blue",
-        "type": "skill",
-        "tier": "III",
-        "text": "**End of turn:** An enemy hero in radius discards a card, or is defeated.",
-        "alternative": true
-    },
-    {
-        "id": "sil-red-iii-rain-of-arrows",
+        "id": "sil-red-iii-alt",
         "name": "Rain of Arrows",
         "color": "red",
-        "type": "attack - ranged",
         "tier": "III",
-        "text": "Target a unit at maximum range.\nIf you target a hero, repeat once on a different hero; if you do, may repeat once on a minion.",
-        "alternative": true
+        "alternative": true,
+        "type": "attack - ranged",
+        "text": "Target a unit at maximum range.\nIf you target a hero, may repeat up to two times on different heroes."
     },
     {
-        "id": "sil-green-iii-natures-blessing",
+        "id": "sil-green-i",
+        "name": "Disorient",
+        "color": "green",
+        "tier": "I",
+        "alternative": false,
+        "type": "skill",
+        "text": "Move an enemy unit adjacent to you up to 1 space.\nIf you do, move up to that number of spaces in a straight line."
+    },
+    {
+        "id": "sil-green-ii",
+        "name": "Divert Attenion",
+        "color": "green",
+        "tier": "II",
+        "alternative": false,
+        "type": "skill",
+        "text": "Move an enemy unit adjacent to you up to 2 spaces.\nIf you do, move up to that number of spaces in a straight line."
+    },
+    {
+        "id": "sil-green-iii",
+        "name": "Lead Astray",
+        "color": "green",
+        "tier": "III",
+        "alternative": false,
+        "type": "skill",
+        "text": "Move an enemy unit adjacent to you up to 3 spaces.\nIf you do, move up to that number of spaces in a straight line."
+    },
+    {
+        "id": "sil-green-ii-alt",
+        "name": "Fae Healing",
+        "color": "green",
+        "tier": "II",
+        "alternative": true,
+        "type": "skill - area",
+        "text": "If you are not adjacent to an enemy unit, another hero in radius may retrieve a discarded card."
+    },
+    {
+        "id": "sil-green-iii-alt",
         "name": "Nature's Blessing",
         "color": "green",
-        "type": "skill",
         "tier": "III",
-        "text": "A hero in radius may retrieve a discarded card; if they do, that hero gains 2 coins.",
-        "alternative": true
+        "alternative": true,
+        "type": "skill - area",
+        "text": "If you are not adjacent to an enemy unit, you and up to one hero in radius may retrieve a discarded card."
+    },
+    {
+        "id": "sil-blue-i",
+        "name": "Grasping Roots",
+        "color": "blue",
+        "tier": "I",
+        "alternative": false,
+        "type": "movement - area",
+        "text": "**This turn:** Enemy heroes in radius adjacent to terrain cannot fast travel, or move more than 1 space with a movement action."
+    },
+    {
+        "id": "sil-blue-ii",
+        "name": "Entangling Vines",
+        "color": "blue",
+        "tier": "II",
+        "alternative": false,
+        "type": "movement - area",
+        "text": "**This turn:** Enemy heroes in radius adjacent to terrain, or to a friendly hero of theirs, cannot fast travel, or move more than 1 space with a movement action."
+    },
+    {
+        "id": "sil-blue-iii",
+        "name": "Grappling Branches",
+        "color": "blue",
+        "tier": "III",
+        "alternative": false,
+        "type": "movement - area",
+        "text": "**This turn:** Enemy heroes in radius adjacent to terrain, or to a friendly hero of theirs, cannot fast travel, or move more than 1 space with a movement action."
+    },
+    {
+        "id": "sil-blue-ii-alt",
+        "name": "Warning Shot",
+        "color": "blue",
+        "tier": "II",
+        "alternative": true,
+        "type": "skill - area",
+        "text": "If you are not adjacent to an enemy unit, **End of turn:** An enemy hero in radius discards a card, if able."
+    },
+    {
+        "id": "sil-blue-iii-alt",
+        "name": "Treetop Sentinel",
+        "color": "blue",
+        "tier": "III",
+        "alternative": true,
+        "type": "skill - area",
+        "text": "If you are not adjacent to an enemy unit, **End of turn:** An enemy hero in radius discards a card, or is defeated."
+    },
+    {
+        "id": "sil-purple-iv",
+        "name": "Wild Hunt",
+        "color": "purple",
+        "tier": "IV",
+        "alternative": false,
+        "type": "ultimate",
+        "text": "Each time before you perform an action, you may move 2 spaces in a straight line."
     }
 ]

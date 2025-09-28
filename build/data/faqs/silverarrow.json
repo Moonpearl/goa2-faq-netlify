@@ -2,20 +2,26 @@
     "faq-sil-VBPVBU86": {
         "q": "When can Silverarrow’s Gold Fast Travel?",
         "a": "The Fast Travel has all the normal restrictions of a Fast Travel action: there must be no enemy Heroes or Minions in her Zone, and if not, she can move anywhere in her Zone or to an adjacent Zone with no enemy Heroes or Minions.\n_Note that this is a rare instance of a Fast Travel which is not replacing a movement action. Silverarrow could Fast Travel (if valid), even if she cannot move due to another effect._",
-        "ref": ["sil-gold-shoot-and-scoot", "sil-gold-h-keep-the-distance"]
-    },
-    "faq-sil-BNCeD4CM": {
-        "q": "Does Silverarrow’s Primary Blue (Grasping Roots) affect a Hero who moves in range of Silverarrow during their movement?",
-        "a": "No, movement restrictions are checked at the beginning of the movement.",
         "ref": [
-            "sil-blue-i-grasping-roots",
-            "sil-blue-ii-entangling-vines",
-            "sil-blue-iii-grappling-branches"
+            "sil-gold",
+            "sil-gold-h"
         ]
     },
-    "faq-sil-itYXMsuM": {
-        "q": "Can Silverarrow's silver allow her to fast-travel through obstacles (and travel move from beach to jungle on the single-lane map)?",
-        "a": "No, ignoring obstacles has no effect on zone adjacency. Additionally, you may ignore obstacles during your movement, but fast travel is a special action that **replaces** movement.",
-        "ref": ["sil-silver-trailblazer"]
+    "faq-sil-BNCeD4CM": {
+        "q": "Does Silverarrow’s Primary Blue affect a Hero who moves in range of Silverarrow during their movement?",
+        "a": "No, movement restrictions are checked at the beginning of the movement.",
+        "ref": [
+            "sil-blue-i",
+            "sil-blue-ii",
+            "sil-blue-iii"
+        ]
+    },
+    "faq-sil-4vXYYv56": {
+        "q": "How does the timing of Silverarrow’s Alt Blue relate to immunity that lasts for the turn?",
+        "a": "Active Effects that trigger at “End of Turn”, such as Silverarrow’s Alt Blue, still happen during the turn. If a Hero is immune during that turn, they are still immune to the discard.",
+        "ref": [
+            "sil-blue-ii-alt",
+            "sil-blue-iii-alt"
+        ]
     }
 }
