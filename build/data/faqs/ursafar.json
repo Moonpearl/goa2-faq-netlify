@@ -1,12 +1,34 @@
 {
+    "faq-urs-ib4a4DV0": {
+        "q": "If Ursafar discards Silver to defend, is he still enraged?",
+        "a": "Yes. Primary Defense (or Defense/Skill) actions resolve their text, including Active Effects, even if they end up in the Discard Pile. (Note that if it later changes state, the Active Effect is canceled.)",
+        "ref": [
+            "urs-silver"
+        ]
+    },
     "faq-urs-znPgp2l0": {
         "q": "Does Ursafar gain coins for removing a minion on his Primary Red?",
         "a": "No. Coins are only gained for defeating a Minion, not Removing one.",
-        "ref": ["urs-red-i-prey-drive", "urs-red-ii-prey-abundance", "urs-red-iii-feeding-frenzy"]
+        "ref": [
+            "urs-red-i",
+            "urs-red-ii",
+            "urs-red-iii"
+        ]
     },
-    "faq-urs-z0mVe4p1": {
-        "q": "Does the additional movement only apply to the card it is printed on?",
-        "a": "Yes. When Ursafar is enraged, his blue allows him to move further with that explicit action. It does not apply to any other cards (there is no “**This round**” indication).",
-        "ref": ["urs-blue-ii-cold-ire", "urs-blue-iii-eyes-of-flame"]
+    "faq-urs-reTuR399": {
+        "q": "When Ursafar’s Alternate Blue is Active, can Heroes move next to him? Can they move away from him?",
+        "a": "Yes. Enemy Heroes cannot move through spaces adjacent to Ursafar. As the reminder text on Tier II indicates, they can move into or out of an adjacent space, but not both.",
+        "ref": [
+            "urs-blue-ii-alt",
+            "urs-blue-iii-alt"
+        ]
+    },
+    "faq-urs-Il223e44": {
+        "q": "Would Ursafar’s Ultimate allow him to move using his Silver?",
+        "a": "No. The second effect on Angry Roar, +2 Movement, will only increase the Movement value of a card which already has a Movement Action.",
+        "ref": [
+            "urs-silver",
+            "urs-purple-iv"
+        ]
     }
 }

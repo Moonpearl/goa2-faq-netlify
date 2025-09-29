@@ -1,173 +1,173 @@
 [
     {
-        "id": "urs-gold-claws-that-catch",
-        "name": "Claws That Catch",
-        "color": "gold",
-        "type": "basic attack",
-        "tier": null,
-        "text": "Before the attack: If enraged, you may move 1 space to a space adjacent to an enemy hero. Target a unit adjacent to you.\n**This round:** You are enraged.",
-        "alternative": false
-    },
-    {
-        "id": "urs-gold-h-jaws-that-bite",
-        "name": "Jaws That Bite",
-        "color": "gold",
-        "type": "basic attack",
-        "tier": "H",
-        "text": "Before the attack: If enraged, you may move 1 space to a space adjacent to an enemy hero. Target a hero adjacent to you.\n**This round:** You are enraged.",
-        "alternative": false
-    },
-    {
-        "id": "urs-silver-angry-roar",
+        "id": "urs-silver",
         "name": "Angry Roar",
         "color": "silver",
-        "type": "basic skill",
         "tier": null,
-        "text": "If enraged, perform the primary action on one of your active cards with an active effect.\n**This round:** You are enraged.",
-        "alternative": false
+        "alternative": false,
+        "type": "basic defense",
+        "text": "Push enemy minions adjacent to you up to 1 space.\nIf enraged, you may retrieve a resolved attack card.\n**This round**: You are enraged."
     },
     {
-        "id": "urs-purple-iv-unbound-fury",
-        "name": "Unbound Fury",
-        "color": "purple",
-        "type": "ultimate",
-        "tier": "IV",
-        "text": "You are always enraged, and all your resolved cards count as active.",
-        "alternative": false
+        "id": "urs-gold",
+        "name": "Claws That Catch",
+        "color": "gold",
+        "tier": null,
+        "alternative": false,
+        "type": "basic attack",
+        "text": "Before the attack: If you are enraged and not adjacent to an enemy unit, move up to 1 space.\nTarget a unit adjacent to you.\nAfter the attack: **This round:** You are enraged."
     },
     {
-        "id": "urs-blue-i-prowling-brute",
-        "name": "Prowling Brute",
-        "color": "blue",
-        "type": "movement",
-        "tier": "I",
-        "text": "If enraged, after movement, you may swap with a unit or token adjacent to you.\n**This round:** You are enraged.",
-        "alternative": false
+        "id": "urs-gold-h",
+        "name": "Jaws That Bite",
+        "color": "gold",
+        "tier": "H",
+        "alternative": false,
+        "type": "basic attack",
+        "text": "Before the attack: If you are enraged and not adjacent to an enemy unit, move up to 1 space.\nTarget a hero adjacent to you.\nAfter the attack: **This round:** You are enraged."
     },
     {
-        "id": "urs-red-i-prey-drive",
+        "id": "urs-red-i",
         "name": "Prey Drive",
         "color": "red",
+        "tier": "I",
+        "alternative": false,
         "type": "attack",
-        "tier": "I",
-        "text": "Target a unit adjacent to you.\nAfter the attack: If enraged, and the target was not removed, remove up to 1 enemy minion in radius.\n**This round:** You are enraged.",
-        "alternative": false
+        "text": "Target a unit adjacent to you.\nBefore the attack: If you are enraged and target a hero, you may remove an enemy minion in radius.\n**This round:** You are enraged."
     },
     {
-        "id": "urs-green-i-sniff-out",
-        "name": "Sniff Out",
-        "color": "green",
-        "type": "skill - ranged",
-        "tier": "I",
-        "text": "If enraged, an enemy hero in range discards a card, if able.",
-        "alternative": false
-    },
-    {
-        "id": "urs-blue-ii-rampaging-beast",
-        "name": "Rampaging Beast",
-        "color": "blue",
-        "type": "movement",
-        "tier": "II",
-        "text": "If enraged, after movement, you may swap with a unit or token adjacent to you; if you do, move up to 1 additional space.\n**This round:** You are enraged.",
-        "alternative": false
-    },
-    {
-        "id": "urs-red-ii-prey-abundance",
+        "id": "urs-red-ii",
         "name": "Prey Abundance",
         "color": "red",
+        "tier": "II",
+        "alternative": false,
         "type": "attack",
-        "tier": "II",
-        "text": "Target a unit adjacent to you.\nAfter the attack: If enraged, and the target was not removed, remove up to 1 enemy minion in radius.\n**This round:** You are enraged.",
-        "alternative": false
+        "text": "Target a unit adjacent to you.\nBefore the attack: If you are enraged and target a hero, you may remove an enemy minion in radius.\n**This round:** You are enraged."
     },
     {
-        "id": "urs-green-ii-eyes-on-the-prey",
-        "name": "Eyes on the Prey",
-        "color": "green",
-        "type": "skill - ranged",
-        "tier": "II",
-        "text": "If enraged, an enemy hero in range discards a card, if able.",
-        "alternative": false
-    },
-    {
-        "id": "urs-blue-ii-cold-ire",
-        "name": "Cold Ire",
-        "color": "blue",
-        "type": "movement",
-        "tier": "II",
-        "text": "If enraged, gain +1 ::movement:: Movement.\n**This round:** You are enraged.",
-        "alternative": true
-    },
-    {
-        "id": "urs-red-ii-rip",
-        "name": "Rip",
-        "color": "red",
-        "type": "attack",
-        "tier": "II",
-        "text": "Target a unit adjacent to you.\nAfter the attack: If enraged, gain 1 coin.\n**This round:** You are enraged.",
-        "alternative": true
-    },
-    {
-        "id": "urs-green-ii-instinctive-reaction",
-        "name": "Instinctive Reaction",
-        "color": "green",
-        "type": "skill",
-        "tier": "II",
-        "text": "If enraged, **choose one —**\n- Perform the primary action on one of your discarded cards.\n- You may retrieve a discarded card.",
-        "alternative": true
-    },
-    {
-        "id": "urs-blue-iii-unstoppable-force",
-        "name": "Unstoppable Force",
-        "color": "blue",
-        "type": "movement",
-        "tier": "III",
-        "text": "If enraged, after movement, you may swap with a unit or token adjacent to you;\nif you do, move up to 2 additional spaces.\n**This round:** You are enraged.",
-        "alternative": false
-    },
-    {
-        "id": "urs-red-iii-feeding-frenzy",
+        "id": "urs-red-iii",
         "name": "Feeding Frenzy",
         "color": "red",
+        "tier": "III",
+        "alternative": false,
         "type": "attack",
-        "tier": "III",
-        "text": "Target a unit adjacent to you.\nAfter the attack: If enraged, and the target was not removed, remove up to 2 enemy minions in radius.\n**This round:** You are enraged.",
-        "alternative": false
+        "text": "Target a unit adjacent to you.\nBefore the attack: If you are enraged and target a hero, you may remove an enemy minion in radius.\n**This round:** You are enraged.\nMay repeat once on a different target hero."
     },
     {
-        "id": "urs-green-iii-apex-predator",
-        "name": "Apex Predator",
-        "color": "green",
-        "type": "skill - ranged",
-        "tier": "III",
-        "text": "If enraged, an enemy hero in range discards a card, or is defeated.",
-        "alternative": false
+        "id": "urs-red-ii-alt",
+        "name": "Rip",
+        "color": "red",
+        "tier": "II",
+        "alternative": true,
+        "type": "attack",
+        "text": "Target a unit adjacent to you.\nAfter the attack: If you are enraged, and the target was defeated, gain 1 extra coin.\n**This round:** You are enraged."
     },
     {
-        "id": "urs-blue-iii-eyes-of-flame",
-        "name": "Eyes of Flame",
-        "color": "blue",
-        "type": "movement",
-        "tier": "III",
-        "text": "If enraged, gain +2 ::movement:: Movement.\n**This round:** You are enraged.",
-        "alternative": true
-    },
-    {
-        "id": "urs-red-iii-tear",
+        "id": "urs-red-iii-alt",
         "name": "Tear",
         "color": "red",
-        "type": "attack",
         "tier": "III",
-        "text": "Target a unit adjacent to you.\nAfter the attack: If enraged, gain 2 coins.;\nif you defeated a hero, that hero spends 1 additional ::life_counters:: Life counter.\n**This round:** You are enraged.",
-        "alternative": true
+        "alternative": true,
+        "type": "attack",
+        "text": "Target a unit adjacent to you.\nAfter the attack: If you are enraged, and the target was defeated, gain 3 extra coins; if a hero was defeated, that hero spends 1 extra ::life_counters:: Life counter.\n**This round:** You are enraged."
     },
     {
-        "id": "urs-green-iii-evolutionary-response",
+        "id": "urs-green-i",
+        "name": "Sniff Out",
+        "color": "green",
+        "tier": "I",
+        "alternative": false,
+        "type": "skill - ranged",
+        "text": "If not enraged, **This round:** You are enraged; otherwise, an enemy hero in range, not adjacent to you, or to another unit, discards a card, if able"
+    },
+    {
+        "id": "urs-green-ii",
+        "name": "Eyes On The Prey",
+        "color": "green",
+        "tier": "II",
+        "alternative": false,
+        "type": "skill - ranged",
+        "text": "If not enraged, **This round:** You are enraged; otherwise, an enemy hero in range, not adjacent to you, or to another unit, discards a card, if able"
+    },
+    {
+        "id": "urs-green-iii",
+        "name": "Apex Predator",
+        "color": "green",
+        "tier": "III",
+        "alternative": false,
+        "type": "skill - ranged",
+        "text": "If not enraged, **This round:** You are enraged; otherwise, an enemy hero in range, not adjacent to you, or to another unit, discards a card, or is defeated"
+    },
+    {
+        "id": "urs-green-ii-alt",
+        "name": "Instinctive Reaction",
+        "color": "green",
+        "tier": "II",
+        "alternative": true,
+        "type": "skill",
+        "text": "If not enraged, **This round:** You are enraged, otherwise, **choose one —**\n- Perform an action on your discarded card.\n- You may retrieve a discarded card."
+    },
+    {
+        "id": "urs-green-iii-alt",
         "name": "Evolutionary Response",
         "color": "green",
-        "type": "skill",
         "tier": "III",
-        "text": "If enraged, **choose one, or both —**\n-  Perform the primary action on one of your discarded cards.\n-  You may retrieve a discarded card.",
-        "alternative": true
+        "alternative": true,
+        "type": "skill",
+        "text": "If not enraged, **This round:** You are enraged, otherwise, **choose one, or both —**\n- Perform an action on your discarded card.\n- You may retrieve a discarded card."
+    },
+    {
+        "id": "urs-blue-i",
+        "name": "Prowling Brute",
+        "color": "blue",
+        "tier": "I",
+        "alternative": false,
+        "type": "movement",
+        "text": "If enraged, after you perform this action, you may swap with a minion adjacent to you.\n_(You may choose to move 0 spaces and still swap.)_"
+    },
+    {
+        "id": "urs-blue-ii",
+        "name": "Rampaging Beast",
+        "color": "blue",
+        "tier": "II",
+        "alternative": false,
+        "type": "movement",
+        "text": "If enraged, after you perform this action, you may swap with a unit or a token adjacent to you."
+    },
+    {
+        "id": "urs-blue-iii",
+        "name": "Unstoppable Force",
+        "color": "blue",
+        "tier": "III",
+        "alternative": false,
+        "type": "movement",
+        "text": "If enraged, before or after you perform this action, you may swap with a unit or a token adjacent to you."
+    },
+    {
+        "id": "urs-blue-ii-alt",
+        "name": "Hulking Menace",
+        "color": "blue",
+        "tier": "II",
+        "alternative": true,
+        "type": "movement",
+        "text": "If enraged, **This round:** Enemy units cannot move through spaces adjacent to you.\n_(They can move into, or out of those spaces, but not both.)_"
+    },
+    {
+        "id": "urs-blue-iii-alt",
+        "name": "Immovable Object",
+        "color": "blue",
+        "tier": "III",
+        "alternative": true,
+        "type": "movement",
+        "text": "If enraged, **This round:** Enemy units cannot move through spaces adjacent to you. You cannot be placed, pushed, moved, swapped, or forced to move by enemy heroes. Ignore the effects that limit, reduce, or prevent movement."
+    },
+    {
+        "id": "urs-purple-iv",
+        "name": "Unround Fury",
+        "color": "purple",
+        "tier": "IV",
+        "alternative": false,
+        "type": "ultimate",
+        "text": "You are always enraged.\nWhile an active effect of one or more other cards is also making you enraged, gain +2 ::movement:: Movement."
     }
 ]
