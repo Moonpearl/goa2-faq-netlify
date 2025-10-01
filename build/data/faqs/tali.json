@@ -1,17 +1,51 @@
 {
+    "faq-tal-sA6IR13i": {
+        "q": "What happens when Tali’s Gold targets a Hero?",
+        "a": "The targeted hero must have an unresolved card. They choose to either return the card to their hand (they will not take an action this turn), or, Tali names a color of card for them to discard, if able.\n- An enemy target must pick between losing their action for the turn (retrieving the card) or losing another card of Tali’s choice from hand.\n- Targeting friendly heroes, Tali is “over-healing” the hero, keeping an extra card in hand for the round and making them more difficult to kill. (If Tali has and her teammate find that they disagree strategically, the teammate could refuse to return the card. Tali could then safely name that color to prevent them from discarding.)",
+        "ref": [
+            "tal-gold",
+            "tal-gold-h"
+        ]
+    },
     "faq-tal-bgAzAr8M": {
-        "q": "What communication is legal for Tali’s Silver (Commune With Spirits)?",
-        "a": "All Table Talk and Communication is fully open - to teammates and opponents (p. 4). A Tali player can give teammates instructions like “Say Blue” or “Say Red if Sabina plays Gold, otherwise say Green,” as long as the opponents can hear (and understand) these instructions. The Tali player may not secretly indicate their desire to their teammates by whispering, gestures, showing cards, a private code, etc.",
-        "ref": ["tal-silver-commune-with-spirits"]
+        "q": "What communication is legal for Tali’s Silver?",
+        "a": "All Table Talk and Communication is fully open - to teammates and opponents (p. 4). A Tali player can give teammates instructions like “Say Blue” or “Say Red if Sabina plays Gold, otherwise say Green,” as long as the opponents can hear (and understand) these instructions. The Tali player may _not_ secretly indicate their desire to their teammates by whispering, gestures, showing cards, a private code, etc.",
+        "ref": [
+            "tal-silver"
+        ]
     },
     "faq-tal-e2Ja6hsd": {
-        "q": "If Tali tries to resolve her Silver (Commune with the Spirits) and her whole team is dead or immune, what happens?",
+        "q": "If Tali tries to resolve her Silver and her whole team is dead or immune, what happens?",
         "a": "No friendly hero can be chosen and the card does nothing.",
-        "ref": ["tal-silver-commune-with-spirits"]
+        "ref": [
+            "tal-silver"
+        ]
+    },
+    "faq-tal-g9x1Ca07": {
+        "q": "If Tali’s Primary Red or Primary Blue causes a “temporary discard,” but then Tali is defeated, what happens?",
+        "a": "The active effect of Tali’s card is canceled, so the opponent never retrieves their card. Through death, Tali scored an extra hit.",
+        "ref": [
+            "tal-red-i",
+            "tal-red-ii",
+            "tal-red-iii",
+            "tal-blue-i",
+            "tal-blue-ii",
+            "tal-blue-iii"
+        ]
+    },
+    "faq-tal-pX35L9un": {
+        "q": "How would Tali’s Tier I Primary Green place 1 Ice Token next to another Ice Token?",
+        "a": "Since it only places 1 Ice Token, and they’re removed at the end of the round, it usually can’t. Some copy effects or other weird cases can cause it to happen.",
+        "ref": [
+            "tal-green-i"
+        ]
     },
     "faq-tal-5K1OWmD6": {
-        "q": "Tali’s Alternate Green (Ancestral Totem) makes a Totem that can protect a minion. If the Totem is removed, does the Hero gain coins?",
+        "q": "Tali’s Alternate Green makes a Totem that can protect a minion. If the Totem is removed, does the Hero gain coins?",
         "a": "No. The Totem is removed instead of the minion being defeated, so no minion is defeated and no coins are gained.",
-        "ref": ["tal-green-ii-ancestral-totem", "tal-green-iii-venerated-totem"]
+        "ref": [
+            "tal-green-ii-alt",
+            "tal-green-iii-alt"
+        ]
     }
 }
