@@ -195,7 +195,7 @@
         },
         "cards": "cards/whisper.json",
         "lore": "Whisper was the Grand Judicator of the Underkingdom when he condemned a powerful noble attempting to escape punishment. Refusing to look the other way, he was blinded and left to die. As if he wasn't dead in the first place! The fools!",
-        "advice": "- Your primary weakness is your limited mobility, with the exception of your green cards.\n- Your gold card can assist your allies in hunting down enemy heroes or scaring them away.\n- However, time your gold carefully; if used at the wrong moment, the target might escape.\n- Your silver makes you difficult to kill, provided there is a wounded enemy nearby.\n"
+        "advice": "- Your main weakness is in your limited mobility. Use your green cards as a workaround.\n- Your gold card discard can help your allies to defeat enemy heroes, or to scare them away.\n- Time your gold card correctly; used at the wrong moment, it can help the target escape.\n- You silver card makes you really hard to kill, as long as a nearby enemy is wounded.\n"
     },
     {
         "id": "mis",

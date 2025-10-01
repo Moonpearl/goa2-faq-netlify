@@ -1,12 +1,41 @@
 {
     "faq-whi-TDtkq39W": {
-        "q": "When Whisper plays Gold (Swift Justice) against an enemy Hero, how do they move?",
+        "q": "When Whisper plays Gold against an enemy Hero, how do they move?",
         "a": "First, the targeted Hero chooses and discards a Card of their choice (if they have any cards remaining in hand). If they do so and the discarded Card has a movement value, that Hero must then move that distance in a straight line. They would only be unable to do so (and therefore stay on the same space) if they could not move the full movement value in a straight line in any of the 6 directions from their current space.",
-        "ref": ["whi-gold-swift-justice", "whi-gold-h-vile-accusation"]
+        "ref": [
+            "whi-gold",
+            "whi-gold-h"
+        ]
+    },
+    "faq-whi-q4y88H3C": {
+        "q": "Does Whisper’s Silver require the condition be maintained to keep him immune to attacks?",
+        "a": "No. If Whisper has an enemy Hero with a discarded card in radius when Death Seeker is played, he can activate attack immunity for the round, even if the enemy moves away later.",
+        "ref": [
+            "whi-silver"
+        ]
+    },
+    "faq-whi-a08G4w4S": {
+        "q": "Can Whisper’s Tier III Alt Red target a Minion ​​first and then repeat on a Hero?",
+        "a": "Yes. “Different Hero” means “different unit, which is a hero.”",
+        "ref": [
+            "whi-red-iii-alt"
+        ]
+    },
+    "faq-whi-3W6mQ7QY": {
+        "q": "Does Whisper’s Primary Blue move Minions in the same absolute direction (“Northwest”) or relative to Whisper (“away from Whisper”)? How many spaces can they move?",
+        "a": "They all move in the same absolute direction. Whisper may choose how many spaces each minion moves.",
+        "ref": [
+            "whi-blue-i",
+            "whi-blue-ii",
+            "whi-blue-iii"
+        ]
     },
     "faq-whi-2Sh4CgpI": {
-        "q": "Does this ability require an enemy Hero? Can they pick an option that does nothing?",
+        "q": "How does Whisper’s Alternate Blue resolve? Can they pick an option that does nothing?",
         "a": "Whisper’s Alternate Blue requires targeting an enemy Hero in range or it will fizzle and have no effect. That Hero then picks one of the two options, regardless of whether they will have any effect. In other words, the card won’t “work” unless Whisper is adjacent to a Minion.\n Note that on Tier III, Whisper can target 3 minions simultaneously. He cannot use this action to defeat the last non-Heavy Minion at the same time as the Heavy.",
-        "ref": ["whi-blue-ii-lesser-evil", "whi-blue-iii-greater-good"]
+        "ref": [
+            "whi-blue-ii-alt",
+            "whi-blue-iii-alt"
+        ]
     }
 }
